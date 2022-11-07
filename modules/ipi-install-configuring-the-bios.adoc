@@ -31,7 +31,8 @@ spec:
 +
 [NOTE]
 ====
-Red Hat supports three BIOS configurations. Only servers with BMC type `irmc` are supported. Other types of servers are currently not supported.
+. Red Hat supports three BIOS configurations. Only servers with BMC type `irmc` are supported. Other types of servers are currently not supported.
+. This feature is temporarily not available in version 4.12 of OCP for control plane nodes with BMC type `irmc`.
 ====
 
 . Create the cluster.

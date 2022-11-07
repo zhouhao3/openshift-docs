@@ -12,6 +12,7 @@ The following procedure configures a redundant array of independent disks (RAID)
 ====
 . Only nodes with baseboard management controller (BMC) type `irmc` are supported. Other types of nodes are currently not supported.
 . If you want to configure a hardware RAID for the node, make sure the node has a RAID controller.
+. This feature is temporarily not available in version 4.12 of OCP for control plane nodes with BMC type `irmc`.
 ====
 
 .Procedure
