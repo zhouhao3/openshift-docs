@@ -47,9 +47,11 @@ platform:
           address: irmc://<out-of-band-ip>
           username: <user>
           password: <password>
+          disableCertificateVerification: True
 ----
 
 [NOTE]
 ====
-Currently Fujitsu supports iRMC S5 firmware version 3.05P and above for installer-provisioned installation on bare metal.
+. Currently Fujitsu supports iRMC S5 firmware version 3.05P and above for installer-provisioned installation on bare metal.
+. The default value of `disableCertificateVerification` is `False`, for Fujitsu hardware you must include `disableCertificateVerification: True` in the `bmc` configuration.
 ====
